@@ -1,0 +1,8 @@
+{# Emo/SimpleSearchBudnle/Resources/views/contentsearch/search_form.html.twig #}
+
+	{{ form(form, {'attr': {'novalidate': 'novalidate'}}) }}
+	{{ form_start(form) }}
+	    {{ form_row(form.fileType) }}
+	    {{ form_row(form.searchContent) }}
+	    {{ form_row(form.searchDir) }}
+	{{ form_end(form) }}
