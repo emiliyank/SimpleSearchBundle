@@ -1,5 +1,11 @@
 {
     "name": "emo/simple-search-bundle",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/emiliyank/SimpleSearchBundle/"
+        }
+    ],
     "type": "symfony-bundle",
     "description": "This Bundle provides Simple Search for Content in Files in Symfony.",
     "license": "MIT",
